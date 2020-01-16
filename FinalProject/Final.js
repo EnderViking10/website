@@ -24,7 +24,7 @@ var img = [];
 var yscale = 1;
 var dy = 4;
 var count = 0;
-var imageY = 460;
+var imageY;
 var x = [], y = [];
 var randomx = [], randomy = [];
 var color = ["white", "lightgrey", "grey"];
@@ -43,7 +43,7 @@ function initialize() {
 		c = canvas.getContext( "2d" );
 		
 		resize(); // Resizes canvas initially
-		
+		imageY = ch-100;
 	  // Dynamically risezes canvas
 		window.addEventListener("resize", resize);
 	  // Listens for mouse movement
