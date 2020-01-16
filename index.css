@@ -1,0 +1,117 @@
+#intro{height: 100%;}
+
+#intro {
+	background: url("background.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#finalEscape{
+	display: inline-block;
+	height: 15%;
+	width: 15%;
+	font-size: 100%;
+	cursor: pointer;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #ffffff;
+	background-color: #000000;
+	border: none;
+	border-radius: 50%;
+	box-shadow: -9px -9px #800080;
+}
+
+#finalEscape:hover {background-color: #e600e6}
+
+#finalEscape:active {
+	background-color: #e600e6;
+	box-shadow: -5px -5px #990099;
+	transform: translate(-4px,-4px);
+}
+
+#basicClicker{
+	display: inline-block;
+	height: 15%;
+	width: 15%;
+	font-size: 100%;
+	cursor: pointer;
+	position: absolute;
+	right: 25%;
+	top: 25%;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #ffffff;
+	background-color: #000000;
+	border: none;
+	border-radius: 50%;
+	box-shadow: 9px -9px #800080;
+}
+
+#basicClicker:hover {background-color: #e600e6}
+
+#basicClicker:active {
+	background-color: #e600e6;
+	box-shadow: 5px -5px #990099;
+	transform: translate(4px,-4px);
+}
+
+#snake{
+	display: inline-block;
+	height: 15%;
+	width: 15%;
+	font-size: 100%;
+	cursor: pointer;
+	position: absolute;
+	left: 25%;
+	bottom: 25%;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #ffffff;
+	background-color: #000000;
+	border: none;
+	border-radius: 50%;
+	box-shadow: -9px 9px #800080;
+}
+
+#snake:hover {background-color: #e600e6}
+
+#snake:active {
+	background-color: #e600e6;
+	box-shadow: -5px 5px #990099;
+	transform: translate(-4px,4px);
+}
+
+#finalProject{
+	display: inline-block;
+	height: 15%;
+	width: 15%;
+	font-size: 100%;
+	cursor: pointer;
+	position: absolute;
+	right: 25%;
+	bottom: 25%;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #ffffff;
+	background-color: #000000;
+	border: none;
+	border-radius: 50%;
+	box-shadow: 9px 9px #800080;
+}
+
+#finalProject:hover {background-color: #e600e6}
+
+#finalProject:active {
+	background-color: #e600e6;
+	box-shadow: 5px 5px #990099;
+	transform: translate(4px,4px);
+}
