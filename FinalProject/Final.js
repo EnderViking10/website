@@ -43,7 +43,7 @@ function initialize() {
 		c = canvas.getContext( "2d" );
 		
 		resize(); // Resizes canvas initially
-		imageY = ch-100;
+		
 	  // Dynamically risezes canvas
 		window.addEventListener("resize", resize);
 	  // Listens for mouse movement
@@ -259,6 +259,8 @@ function resize(){
 				x[i] = parseInt(Math.random()*cw);
 				y[i] = parseInt(Math.random()*ch);
 			}
+
+			imageY = ch-100; // Gives santa new cords
 			
 	  	// Makes cords for snow
 		
